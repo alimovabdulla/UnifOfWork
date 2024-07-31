@@ -7,18 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace App.Application.Profiles.AutoMapper
+namespace App.Application.Profiles
 {
-    public class Mapper: Profile
+    public class MapperProfile : Profile
     {
-        public Mapper()
+        public MapperProfile()
         {
-            
-           CreateMap<Person, PersonCreateDTO>().ReverseMap();
+ 
+            CreateMap<Person, PersonCreateDTO>().ReverseMap();
+
 
 
         }
 
-         
+
     }
 }

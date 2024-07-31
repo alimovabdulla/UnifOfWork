@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnifOfWork", "UnifOfWork\UnifOfWork.csproj", "{3E1563FF-A81C-43CD-86CD-45D4A55AB98C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitOfWork", "UnifOfWork\UnitOfWork.csproj", "{3E1563FF-A81C-43CD-86CD-45D4A55AB98C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{90BCC322-A878-4105-B5F8-56EA4B227C0B}"
 EndProject

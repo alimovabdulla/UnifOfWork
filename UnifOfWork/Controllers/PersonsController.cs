@@ -1,5 +1,5 @@
 ﻿using App.Application.DTOs.PersonDTOs;
-using App.Application.Profiles.AutoMapper;
+using App.Application.Profiles;
 using App.Application.UnitOfWorks;
 using App.Domain.Entities;
 using AutoMapper;
@@ -18,7 +18,7 @@ namespace UnifOfWork.Controllers
         }
 
         [HttpPost("Create")]
-        public async Task<IActionResult> Create(PersonCreateDTO createDTO)
+        public async Task<IActionResult> Create([FromBody] PersonCreateDTO createDTO)
         {
             Person person = _mapper.Map<Person>(createDTO);
             await _unitOfWork.RepositoryPerson.InsertAsync(person);
